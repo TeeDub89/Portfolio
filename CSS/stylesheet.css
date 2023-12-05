@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* -------------------Global Styles */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #596E79;
+    margin: 40px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #596E79;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 30px;
+}
+
+/* -------------------Page Styles */
+
+.bigBlocktxt {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.bigBlocktxt section {
+    max-width: 50%;
+}
+
+#p-topContainer {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+#p-title {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    color: #596E79;
+    text-align: left;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+#p-mainNav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+    flex: 1;
+    text-align: center;
+    justify-self: auto;
+}
+
+#p-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}    
+
+
+#p-title div {
+    display: flex;
+    align-items: center;
+    
+}
+
+/* -------------------Section Styles */
+
+.sectionHeader {
+    text-align: center;
+}
+
+.secBlock {
+    padding: 40px;
+    max-width: 40%;
+}
+
+#text-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+
+#s-botContainer {
+    width: 100%;
+    margin: 50px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-content h2{
+    font-size: 2rem;
+}
+
+#text-content p {
+    font-size: 1.5rem;
+    max-width: 1000px;
+}
+
+#me {
+    width: 242px;
+    height: 323px;
+    padding: 20px;
+    border-radius: 45px;
+    
+}
+
+.s-imgContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.s-appImg {
+    max-width: 450px;
+    max-height: 275px;
+    border-radius: 45px;
+    margin: 20px;
+}
+
+.secBlock:nth-of-type(3) .s-imgContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secBlock:nth-of-type(4) .s-imgContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secBlock:nth-of-type(4) .s-appImg {
+    margin-left: 100px;
+}
+
+.secBlock:nth-of-type(3) .s-appImg {
+    margin-left: 150px;
+}
+
+.secBlock:nth-of-type(5) .s-imgContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secBlock:nth-of-type(5) .s-appImg {
+    margin-left: 60px;
+}
+
+.secBlock:nth-of-type(6) .s-imgContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secBlock:nth-of-type(6) .s-appImg {
+    margin-left: 100px;
+}
+
+#s-email {
+    padding-left: 40px;
+}
+
+#s-address {
+    padding-left: 80px;
+}
+
+.s-emp {
+    padding-left: 40px;
+
+}
+
+@media (max-width: 1000px) {
+    p {
+        text-align: center;
+    }
+    .s-imgContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-mobile {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .s-appImg {
+        width: max-content;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .secBlock:nth-of-type(3) .s-appImg {
+        margin-left: 0;
+    }
+    .secBlock:nth-of-type(4) .s-appImg {
+        margin-left: 0;
+    }
+    .secBlock:nth-of-type(5) .s-appImg {
+        margin-left: 0;
+    }
+    .secBlock:nth-of-type(6) .s-appImg {
+        margin-left: 0;
+    }
+
+    #s-email {
+        padding-left: 0;
+    }
+    
+    #s-address {
+        padding-left: 0;
+    }
+
+    .s-emp {
+        padding-left: 0;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+
+
+
+
+}
