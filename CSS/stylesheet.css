@@ -151,15 +151,6 @@ footer {
     margin: 20px;
 }
 
-.secBlock:nth-of-type(3) .s-imgContainer {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.secBlock:nth-of-type(4) .s-imgContainer {
-    display: flex;
-    justify-content: flex-start;
-}
 
 .secBlock:nth-of-type(4) .s-appImg {
     margin-left: 100px;
@@ -169,19 +160,13 @@ footer {
     margin-left: 150px;
 }
 
-.secBlock:nth-of-type(5) .s-imgContainer {
-    display: flex;
-    justify-content: flex-start;
-}
+
 
 .secBlock:nth-of-type(5) .s-appImg {
     margin-left: 60px;
 }
 
-.secBlock:nth-of-type(6) .s-imgContainer {
-    display: flex;
-    justify-content: flex-start;
-}
+
 
 .secBlock:nth-of-type(6) .s-appImg {
     margin-left: 100px;
