@@ -200,6 +200,10 @@ footer {
 
 }
 
+#s-footerNav ul {
+   list-style-type: none; 
+}
+
 @media (max-width: 1000px) {
     p {
         text-align: center;
